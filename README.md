@@ -1,8 +1,7 @@
 Dotfiles
 ========
 
-Estes são os meus dotfiles!
-Compatível com MAC OS X e Ubuntu.
+Dotfiles pessoais, compatível com MAC OS X e Ubuntu.
 
 #### Instalação
 
@@ -14,9 +13,17 @@ Efetue o clone do repositório dotfiles:
 
     git clone https://github.com/maiconschmitz/dotfiles.git
 
-Renomeio o repositório para .dotfiles:
+Renomeie o repositório para .dotfiles:
 
     mv dotfiles .dotfiles
+
+Mova o seu .bashrc ou .bash_profile para .bashrc.local:
+	
+	mv .bash_profile .bashrc.local
+
+Se você não possuir nenhum dos arquivos .bashrc ou .bash_profile crie o .bashrc.local 
+
+	touch .bashrc.local
 
 Efetue o link para os arquivos no seu diretório home:
 
