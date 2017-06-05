@@ -1,7 +1,7 @@
 Dotfiles
 ========
 
-Dotfiles pessoais, compatível com MAC OS X e Ubuntu.
+Dotfiles pessoais, compatível com macOS e Ubuntu.
 
 #### Instalação
 
@@ -11,11 +11,7 @@ Vá para o seu diretório home:
 
 Efetue o clone do repositório dotfiles:
 
-    git clone https://github.com/maiconschmitz/dotfiles.git
-
-Renomeie o repositório para .dotfiles:
-
-    mv dotfiles .dotfiles
+    git clone https://github.com/maiconschmitz/dotfiles.git .dotfiles
 
 Mova o seu .bashrc ou .bash_profile para .bashrc.local:
 	
@@ -36,3 +32,4 @@ Tudo OK! ;)
 ### Agradecimentos
 - Porções de código do .bashrc foram inspiradas em: https://github.com/rkirti/bashrc
 - Porções de código do .vimrc foram obtidas em: https://github.com/pedrofranceschi/vimfiles
+- Informações sobre as Cores do Terminal, obtidas em: https://www.cyberciti.biz/faq/apple-mac-osx-terminal-color-ls-output-option/
