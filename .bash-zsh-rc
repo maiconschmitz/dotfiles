@@ -1,0 +1,8 @@
+# Carrega os alias
+source $HOME/.dotfiles/shell/alias
+
+# Carrega os exports
+source $HOME/.dotfiles/shell/exports
+
+# Executa ao abrir o terminal
+uptime

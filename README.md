@@ -7,24 +7,20 @@ Dotfiles pessoais, compatível com macOS e Ubuntu.
 
 Vá para o seu diretório home:
 
-    cd ~
+    cd $HOME
 
 Efetue o clone do repositório dotfiles:
 
     git clone https://github.com/maiconschmitz/dotfiles.git .dotfiles
 
-Mova o seu .bashrc ou .bash_profile para .bashrc.local:
-	
-	mv .bash_profile .bashrc.local
+Edite o seu arquivo .bashrc ou .zshrc e ao final do mesmo inclua:
 
-Se você não possuir nenhum dos arquivos .bashrc ou .bash_profile crie o .bashrc.local 
+	# Carrega o .bash-zsh-rc
+    source $HOME/.dotfiles/.bash-zsh-rc
 
-	touch .bashrc.local
+Efetue o link do .vimrc:
 
-Efetue o link para os arquivos no seu diretório home:
-
-    ln -s .dotfiles/.bashrc .bashrc
-    ln -s .dotfiles/.bashrc .bash_profile
+    cd $HOME
     ln -s .dotfiles/.vimrc .vimrc
 
 Tudo OK! ;)
