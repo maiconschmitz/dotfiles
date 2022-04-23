@@ -18,7 +18,11 @@ Edite o seu arquivo .bashrc ou .zshrc e ao final do mesmo inclua:
 	# Carrega o .bash-zsh-rc
     source $HOME/.dotfiles/.bash-zsh-rc
 
-Efetue o link do .vimrc:
+Ou apenas execute o comando abaixo para efetuar a inclusão:
+
+    echo 'source $HOME/.dotfiles/.bash-zsh-rc' >> ~/.zshrc
+
+Faça o link do .vimrc, para carregar as configurações do VIM:
 
     cd $HOME
     ln -s .dotfiles/.vimrc .vimrc
